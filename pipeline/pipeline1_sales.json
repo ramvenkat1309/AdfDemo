@@ -1,0 +1,21 @@
+{
+	"name": "pipeline1_sales",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 20
+				}
+			}
+		],
+		"annotations": [
+			"salesPipeline"
+		],
+		"lastPublishTime": "2022-06-27T05:38:56Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

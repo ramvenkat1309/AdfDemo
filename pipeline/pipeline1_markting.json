@@ -1,0 +1,21 @@
+{
+	"name": "pipeline1_markting",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 15
+				}
+			}
+		],
+		"annotations": [
+			"marketingindia"
+		],
+		"lastPublishTime": "2022-06-27T05:38:56Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
